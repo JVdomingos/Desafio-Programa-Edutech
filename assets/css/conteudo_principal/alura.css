@@ -1,0 +1,36 @@
+.conteudo-principal__alura {
+    display: flex;
+    align-items: top;
+    justify-content: start;
+    padding-bottom: 50px;
+}
+
+.alura__logo {
+    width: 20%;
+    margin: 0px 70px 0px 20px;
+}
+
+.alura__titulo {
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.alura__texto-explicativo {
+    font-size: 25px;
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-device-width: 700px) {
+
+    .alura__titulo {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-device-width: 1200px) {
+    
+    .alura__texto-explicativo {
+        font-size: 20px;
+    }
+}

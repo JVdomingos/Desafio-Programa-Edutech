@@ -1,0 +1,51 @@
+.conteudo-principal__introducao {
+    padding: 10em 0em;
+    background-image: url(../../img/introducao__background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+}
+
+.introducao__frase-titulo {
+    font-family: var(--introducaoTitulo);
+    font-size: 180px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(19, 19, 19);
+}
+
+.introducao__frase-subtitulo {
+    color: var(--cinzaClaro);
+    font-size: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 700px) {
+
+    .conteudo-principal__introducao {
+        padding: 8em 0em;
+    }
+
+    .introducao__frase-titulo {
+        font-size: 160px;
+    }
+
+    .introducao__frase-subtitulo {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-device-width: 1200px) {
+
+    .conteudo-principal__introducao {
+        padding: 9em 0em;
+    }
+
+    .introducao__frase-titulo {
+        font-size: 160px;
+    }
+
+    .introducao__frase-subtitulo {
+        font-size: 35px;
+    }
+}

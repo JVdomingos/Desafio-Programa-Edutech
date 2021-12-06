@@ -1,0 +1,64 @@
+.formulario__cabecalho {
+    border-bottom: solid 2px black;
+    background-color: #f3f3f3;
+}
+
+.tabela__cabecalho {
+    border-bottom: solid 2px black;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: #f3f3f3;
+}
+
+.logo {
+    width: 10%;
+}
+
+.cabecalho__navegacao-lista {
+    display: flex;
+}
+
+.cabecalho__navegacao-item {
+    font-size: 30px;
+    margin: 0px 90px;
+}
+
+.cabecalho__navegacao-link {
+    text-decoration: none;
+    color: var(--verde);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cabecalho__navegacao-link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-device-width: 700px) {
+
+    .logo {
+        width: 25%;
+    }
+
+    .cabecalho__navegacao-item {
+        margin: 0px 35px;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-device-width: 1200px) {
+
+    .logo {
+        width: 15%;
+    }
+
+    .cabecalho__navegacao-item {
+        margin: 0px 50px;
+    }
+}

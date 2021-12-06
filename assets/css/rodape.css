@@ -1,0 +1,49 @@
+.rodape {
+    margin-top: 50px;
+    padding: 50px 0px;
+    border-top: solid 2px black;
+}
+
+.facebook-logo {
+    position: absolute;
+    transform: translate(500%, -30%);
+}
+
+.instagram-logo {
+    position: absolute;
+    transform: translate(100%, -30%);
+    width: 7%;
+}
+
+.rodape__texto {
+    text-align: center;
+    font-size: 20px;
+}
+
+.github-logo {
+    position: absolute;
+    transform: translate(1500%, -90%);
+}
+
+@media only screen and (max-device-width: 700px) {
+
+    .rodape__texto {
+        font-size: 30px;
+    }
+
+    .facebook-logo {
+        position: absolute;
+        transform: translate(300%, -10%);
+    }
+    
+    .instagram-logo {
+        position: absolute;
+        transform: translate(30%, -15%);
+        width: 7%;
+    }
+    
+    .github-logo {
+        position: absolute;
+        transform: translate(1600%, -120%);
+    }
+}

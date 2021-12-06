@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Programa Edutech</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Open+Sans&family=Road+Rage&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/base/base.css">
+        <link rel="stylesheet" href="assets/css/cabecalho.css">
+        <link rel="stylesheet" href="assets/css/conteudo_principal/introducao.css">
+        <link rel="stylesheet" href="assets/css/conteudo_principal/cursos.css">
+        <link rel="stylesheet" href="assets/css/conteudo_principal/alura.css">
+        <link rel="stylesheet" href="assets/css/rodape.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img src="assets/img/governo_logo.png" alt class="logo">
+
+            <nav class="cabecalho__navegacao">
+                <ul class="cabecalho__navegacao-lista">
+                    <li class="cabecalho__navegacao-item">
+                        <a href="#conteudo-principal__alura" class="cabecalho__navegacao-link">
+                            <span>Comece a</span>
+                            <span>Estudar</span>
+                        </a>
+                    </li>
+
+                    <li class="cabecalho__navegacao-item">
+                        <a href="#conteudo-principal__cursos" class="cabecalho__navegacao-link">
+                            <span>Se</span>
+                            <span>Inscreva</span>
+                        </a>
+                    </li>
+
+                    <li class="cabecalho__navegacao-item">
+                        <a href="###" class="cabecalho__navegacao-link" data-bs-toggle="modal" data-bs-target="#modal_contato">
+                            <span>Entre em</span>
+                            <span>Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="conteudo-principal">
+
+            <section class="conteudo-principal__introducao">
+
+                <div class="introducao__frase">
+                    <h1 class="introducao__frase-titulo">
+                        <p>Bem Vindo ao</p><p>Programa<span style="color: #09da2b;">Edu</span>tech</p> 
+                    </h1>
+                    <h2 class="introducao__frase-subtitulo">Você já sonhou em ser <span style="color: #7108a8;">programador</span>?</h2>
+                    <h2 class="introducao__frase-subtitulo">Se sim, não perca essa Oportunidade!</h2>
+                </div>
+
+            </section>
+
+            <section class="conteudo-principal__cursos" id="conteudo-principal__cursos">
+
+                <h1 class="cursos__titulo titulo">Nós estamos oferecendo cursos da Alura!</h1>
+
+                <h2 class="cursos__subtitulo subtitulo">Caso queira aprender programação, se inscreva de acordo com a sua série.</h2>
+
+                <ol class="cursos__lista-serie" id="cursos__lista-serie">
+                    <li class="serie ativo" id="6e7">6º e 7º Anos</li>
+                    <li class="serie" id="8e9">8º e 9º Anos</li>
+                    <li class="serie" id="1S">1ª Série</li>
+                    <li class="serie" id="2S">2ª Série</li>
+                    <li class="serie" id="3S">3ª Série</li>
+                </ol>
+
+                <div class="cursos-detalhes">
+
+                    <h1 class="cursos-detalhes__titulo titulo" id="cursos-detalhes__titulo">Games e Animações</h1>
+
+                    <p class="cursos-detalhes__explicacao texto-explicativo" id="texto-explicativo">Nós aprenderemos a desenvolver jogos 2D, aprendendo desde a concepção do tema do jogo, passando pelo seu funcionamento, analisando as regras do jogo e desenvolvendo toda a parte visual de animação, criação dos personagens e a programação para o funcionamento do jogo. Poderão desenvolver efeitos especiais nas animações, aprenderão a física de funcionamento dos personagens, integração com multimídias, tudo com uma aplicação que funcione através da internet, como o Scratch e depois passaremos para o AppInventor.</p>
+
+                    <h3 class="trilha-titulo">Conteúdos:</h3>
+
+                    <div class="cursos-detalhes__container">
+                        <ol class="trilha-lista">
+                            <li class="trilha-conteudo" id="trilha-conteudo01">Scratch: Programando seu jogo 2D Parte 1</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo02">Scratch 3: Recursos avançados de um jogo 2D Parte 2</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo03">Ângulos 1: Criando um jogo com matemática</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo04">Ângulos 2: Desenvolvendo um jogo mais complexo</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo05">Scratch Animação 1: Animações para um jogo 2D</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo06">Scratch Animação 2: Dando vida a um cenário e retrabalhando sprites</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo07">Scratch Efeitos Visuais: Programando e mixando efeitos especiais</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo08">Futebol Manager 1: Lidere a seleção</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo09">Futebol Manager 2: Evoluindo a estratégia</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo10">Futebol Manager 3: Criando um jogo mais complexo</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo11">Scratch: Criando um robô gênio</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo12">Troco 1: O jogo da venda</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo13">Troco 2: Desafios com decimais na computação</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo14">Scratch: Seu jogo com física e gravidade</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo15">Scratch: Física e efeitos especiais</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo16">Storytelling: Contando histórias com Scratch</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo17">Scratch: Desenvolvendo um jogo de cobrança de Pênalti</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo18">Cifra de César: Criptografando e descriptografando textos</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo19">App Inventor: Sabre Jedi</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo20">App Inventor 2: Compartilhamento e trabalhando com mídias</li>
+                            <li class="trilha-conteudo" id="trilha-conteudo21">App Inventor 3: Conectando seu aplicativo a web e outros apps</li>
+                            <li class="trilha-conteudo invisivel" id="trilha-conteudo22">Construct 1: Criando seu primeiro jogo</li>
+                            <li class="trilha-conteudo invisivel" id="trilha-conteudo23">Construct 2: Pontuação, sons e menu</li>
+                            <li class="trilha-conteudo invisivel" id="trilha-conteudo24">Jogo plataforma Construct 1: Criando um jogo</li>
+                            <li class="trilha-conteudo invisivel" id="trilha-conteudo25">Jogo plataforma com Construct 2: Vida, sons, e poder especial</li>
+                            <li class="trilha-conteudo invisivel" id="trilha-conteudo26">Jogos clássicos parte 1: Iniciando no JavaScript com Pong</li>
+                            <li class="trilha-conteudo invisivel" id="trilha-conteudo27">JavaScript 1: Criando um robô gênio</li>
+                            <li class="trilha-conteudo invisivel" id="trilha-conteudo28">Invasão do espaço 1: Aprendendo a programar com jogos clássicos</li>
+                            <li class="trilha-conteudo invisivel" id="trilha-conteudo29">Invasão do espaço 2: Refinando o jogo</li>
+                        </ol>
+
+                        <div class="cursos-detalhes-img__container">
+                            <img src="assets/img/scratch1.jpg" alt class="cursos-detalhes__img" id="scratch-img1">
+                            <img src="assets/img/scratch2.jpg" alt class="cursos-detalhes__img" id="scratch-img2">
+                            <img src="assets/img/app_inventor.png" alt class="cursos-detalhes__img" id="app-inventor-img">
+                            <img src="assets/img/construct.png" alt class="cursos-detalhes__img invisivel" id="construct-img">
+                            <img src="assets/img/html5.png" alt class="cursos-detalhes__img invisivel" id="html5-img">
+                            <img src="assets/img/css3.png" alt class="cursos-detalhes__img invisivel" id="css3-img">
+                            <img src="assets/img/javascript.png" alt class="cursos-detalhes__img" id="javascript-img">
+                            <img src="assets/img/bootstrap.png  " alt class="cursos-detalhes__img invisivel" id="bootstrap-img">
+                            <img src="assets/img/react_native_logo.png" alt class="cursos-detalhes__img invisivel" id="react-native-img">
+                            <img src="assets/img/Java-logo.png" alt class="cursos-detalhes__img invisivel" id="java-img">
+                            <img src="assets/img/jdbc.png" alt class="cursos-detalhes__img invisivel" id="jdbc-img">
+                            <img src="assets/img/backend.png" alt class="cursos-detalhes__img invisivel" id="backend-img">
+                        </div>
+                    </div>
+        
+
+                    <div class="invisivel" id="conteudo-alternativo-2e3">
+                        <h1 class="cursos-detalhes__titulo titulo" id="cursos-detalhes__titulo2">Programação em Python</h1>
+
+                        <p class="cursos-detalhes__explicacao texto-explicativo" id="texto-explicativo2">Neste curso, vamos estudar a linguagem de programação mais querida dos desenvolvedores na atualidade. Com Python, atualmente podemos trabalhar desde aplicações que manipulam informações simples, como dados de hardware, até informações complexas de alto poder de processamento, como ações dentro de games. Python é uma linguagem em ampla e constante evolução e adesão para aplicações de pequeno, médio e grande porte.</p>
+
+                        <h3 class="trilha-titulo">Conteúdos:</h3>
+
+                        <div class="cursos-detalhes__container">
+                            <ol class="trilha-lista">
+                                <li class="trilha-conteudo" id="trilha-conteudo2-01">Lógica de programação I: Os primeiros programas com JavaScript e HTML</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-02">Lógica de programação II: Pratique com desenhos, animações e um jogo</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-03">Python 3 parte 1: Introdução à nova versão da linguagem</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-04">Python 3 parte 2: Avançando na linguagem</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-05">Python 3: Introdução à orientação a objetos</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-06">Python 3: Avançando na orientação a objetos</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-07">Python 3: Trabalhando com I/O</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-08">Python: Manipulação de Strings</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-09">Python 3: Entendendo o tratamento de erros</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-10">Python Brasil: Validação de dados no padrão nacional</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-11">Design Patterns Python I: Boas práticas de programação</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-12">Design Patterns Python II: Boas práticas de programação</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-13">Python Collections parte 1: Listas e tuplas</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-14">Python Collections parte 2: Conjuntos e dicionários</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-15">Pacman com Python e Pygame: Cenário e ator</li>
+                                <li class="trilha-conteudo" id="trilha-conteudo2-16">Pacman com Python e Pygame: Colisão e pontuação</li>
+                            </ol>
+
+                            <div class="cursos-detalhes-img__container">
+                                <img src="assets/img/html5.png" alt class="cursos-detalhes__img">
+                                <img src="assets/img/javascript.png" alt class="cursos-detalhes__img">
+                                <img src="assets/img/datascience.png" alt class="cursos-detalhes__img invisivel" id="data-science-img">
+                                <img src="assets/img/Python-Symbol.png" alt class="cursos-detalhes__img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="inscrever"><a class="inscrever-link" href="formulario.html">Inscreva-se Aqui!</a></p>
+                </div>
+            </section>
+
+            <section class="conteudo-principal__alura" id="conteudo-principal__alura">
+
+                <img src="assets/img/logo_alura.png" class="alura__logo">
+
+                <div>
+                    <h1 class="alura__titulo titulo">Comece a estudar.</h1>
+
+                    <p class="alura__texto-explicativo texto-explicativo">Acesse sua trilha de estudo por <a href="https://cursos.alura.com.br/dashboard" class="link">aqui</a>.</p>
+                    <p class="alura__texto-explicativo texto-explicativo">Caso você não saiba se sua inscrição foi aceita, confirme por <a href="tabela.html" class="link">aqui</a></p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+          
+            <img src="assets/img/instagram_logo.png" alt="Acesse meu Instagram." class="instagram-logo logo-link">   
+            
+            <img src="assets/img/facebook_logo.png" alt="Acesse meu Facebook" class="facebook-logo logo-link">
+            
+            <p class="rodape__texto">©Copyright Programa Edutech 2021</p>
+
+            <img src="assets/img/github_logo.png" alt="Acesse meu github" class="logo-link github-logo">
+            
+        </footer>
+
+        <div class="modal fade modal_contato" id="modal_contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Entre em Contato</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">E-mail</label>
+                                <input type="email" class="form-control" id="recipient-name" placeholder="seuemail@dominio" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Mensagem</label>
+                                <textarea class="form-control" id="message-text" required></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="assets/js/cursos.js"></script>
+    </body>
+</html>
